@@ -1,0 +1,17 @@
+[package]
+name = "common-library-rust"
+version = "0.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
+
+[dependencies]
+rand = "0.8.5"
+socket-server-mocker = "0.0.4"
+uuid = { version = "1.4.1", features = ["v4", "fast-rng", "macro-diagnostics"] }
