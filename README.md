@@ -10,6 +10,7 @@ common-library-rust = { git = "https://github.com/heaven-chp/common-library-rust
 
 ## Features
  - file
+ - socket
 
 <br/>
 
