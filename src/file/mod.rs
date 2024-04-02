@@ -10,7 +10,7 @@ use std::io::Write;
 ///
 /// # Examples
 /// ```no_run
-/// use common_library_rust::file::read;
+/// use common_library::file::read;
 ///
 /// let file_name = String::from("test.txt");
 /// match read(&file_name) {
@@ -32,7 +32,7 @@ pub fn read(file_name: &String) -> Result<String, io::Error> {
 ///
 /// # Examples
 /// ```no_run
-/// use common_library_rust::file::write;
+/// use common_library::file::write;
 ///
 /// let file_name = String::from("test.txt");
 /// let data = String::from("test data");
@@ -53,7 +53,7 @@ pub fn write(file_name: &String, data: &String) -> Result<(), io::Error> {
 ///
 /// # Examples
 /// ```no_run
-/// use common_library_rust::file::remove;
+/// use common_library::file::remove;
 ///
 /// let file_name = String::from("test.txt");
 /// match remove(&file_name) {
