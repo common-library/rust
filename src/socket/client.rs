@@ -13,7 +13,7 @@ impl Client {
     ///
     /// # Examples
     /// ```
-    /// use common_library_rust::socket::client::Client;
+    /// use common_library::socket::client::Client;
     ///
     /// let mut client = Client::new();
     /// ```
@@ -25,7 +25,7 @@ impl Client {
     ///
     /// # Examples
     /// ```
-    /// use common_library_rust::socket::client::Client;
+    /// use common_library::socket::client::Client;
     /// use socket_server_mocker::server_mocker::ServerMocker;
     /// use socket_server_mocker::tcp_server_mocker::TcpServerMocker;
     /// use std::net::SocketAddr;
@@ -57,7 +57,7 @@ impl Client {
     /// read() is read data.
     /// # Examples
     /// ```
-    /// use common_library_rust::socket::client::Client;
+    /// use common_library::socket::client::Client;
     /// use socket_server_mocker::server_mocker::ServerMocker;
     /// use socket_server_mocker::server_mocker_instruction::ServerMockerInstruction;
     /// use socket_server_mocker::tcp_server_mocker::TcpServerMocker;
@@ -105,7 +105,7 @@ impl Client {
     /// write() is write data.
     /// # Examples
     /// ```
-    /// use common_library_rust::socket::client::Client;
+    /// use common_library::socket::client::Client;
     /// use socket_server_mocker::server_mocker::ServerMocker;
     /// use socket_server_mocker::server_mocker_instruction::ServerMockerInstruction;
     /// use socket_server_mocker::tcp_server_mocker::TcpServerMocker;

@@ -1,10 +1,10 @@
-# common-library-rust
+# Common Library for Rust
 
 ## Usage
  - `Cargo.toml`
 ```
 [dependencies]
-common-library-rust = { git = "https://github.com/heaven-chp/common-library-rust.git", branch = "main"  }
+common-library = { git = "https://github.com/common-library/rust.git", branch = "main" }
 ```
 <br/>
 
@@ -16,7 +16,7 @@ common-library-rust = { git = "https://github.com/heaven-chp/common-library-rust
 
 ## Document
  - `cargo doc`
- - run `./target/doc/common_library_rust/index.html` in your browser
+ - run `./target/doc/common_library/index.html` in your browser
 
 <br/>
 

@@ -21,7 +21,7 @@ impl Server {
     ///
     /// # Examples
     /// ```
-    /// use common_library_rust::socket::server::Server;
+    /// use common_library::socket::server::Server;
     ///
     /// let mut server = Server::new();
     /// ```
@@ -37,7 +37,7 @@ impl Server {
     ///
     /// # Examples
     /// ```
-    /// use common_library_rust::socket::server::Server;
+    /// use common_library::socket::server::Server;
     /// use rand::Rng;
     /// use std::io::prelude::*;
     /// use std::net::TcpStream;
@@ -138,7 +138,7 @@ impl Server {
     ///
     /// # Examples
     /// ```
-    /// use common_library_rust::socket::server::Server;
+    /// use common_library::socket::server::Server;
     ///
     /// let server = Server::new();
     ///
